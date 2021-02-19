@@ -39,13 +39,11 @@ volatile unsigned char counter = 0;
 volatile unsigned char flag = 2;
 
 /*
-* time[0] is the value of the first digit of seconds
-* time[1] is the value of the second digit of seconds
-* time[2] is the value of the first digit of minutes
-* time[3] is the value of the second digit of minutes
-* time[4] is the value of the first digit of hours
-* time[5] is the value of the second digit of hours
-*/unsigned char time[4] = {7, 0, 9, 0};
+* time[0] is the value of the first digit of minutes
+* time[1] is the value of the second digit of minutes
+* time[2] is the value of the first digit of hours
+* time[3] is the value of the second digit of hours
+*/unsigned char time[4] = {0};
 
 /*-------------------------------------------------FUNCTION DEFINITION-----------------------------------------------------*/
 
